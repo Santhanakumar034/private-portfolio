@@ -7,7 +7,7 @@ const geoip = require('geoip-lite');
 const app = express();
 const PORT = process.env.PORT || 3000;
 const VISITORS_FILE = path.join(__dirname, 'visitors.json');
-const ADMIN_PASSWORD = process.env.ADMIN_PASS || 'your_secure_password_here'; // Change in production!
+const ADMIN_PASSWORD = process.env.ADMIN_PASS || 'MyQAPortfolio2026!'; // Change in production!
 
 app.use(cors());
 app.use(express.json());
